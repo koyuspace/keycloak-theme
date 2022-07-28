@@ -1,0 +1,197 @@
+:root {
+    --accent-color: #fe53e1;
+    --accent-color-hover: #ff78e8;
+    --trends-transparency: rgba(254, 83, 225, .25);
+    --element-color: #223;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11pt;
+    color: #fff !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: var(--element-color);
+    background-image: url(https://content.koyu.space/img/pb-icon.svg);
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-position: bottom right;
+}
+
+body:not(.user) {
+    min-height: 95vh;
+}
+
+.user .container {
+    margin-top: 120px !important;
+}
+
+body.user {
+    min-height: 87vh;
+}
+
+a {
+    color: var(--accent-color);
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.content-area {
+    margin: 20px;
+    margin-top: -60px;
+}
+
+img[alt="Figure: Barcode"] {
+    height: 200px;
+    float: right;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: -100px;
+}
+
+ol {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+table {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+button {
+    background-color: var(--accent-color)!important;
+    border: 10px;
+    border-radius: 30px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    width: 150px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--accent-color-hover)!important;
+}
+
+input:not([type="checkbox"]) {
+    padding: 8px;
+    background: #fff;
+    font-size: 11pt;
+    border: 0;
+    border-radius: 8px;
+    width: 250px;
+    margin-bottom: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 4px;
+}
+
+label:after {
+    content: ":";
+}
+
+.required {
+    display: none;
+}
+
+* {
+    outline: 0 !important;
+}
+
+@media(min-width:800px) {
+    .content-area form,
+    .row {
+        text-align: center;
+    }
+}
+
+nav > div.navbar-collapse.navbar-collapse-1 > div > ul > li,
+nav > div.navbar-collapse.navbar-collapse-1 > div > ul > li > a {
+    display: inline-block;
+    list-style-type: none;
+    background: var(--accent-color);
+    color: #fff;
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    width: 60px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+.navbar-title {
+    display: none;
+}
+
+.bs-sidebar {
+    min-height: 38px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.bs-sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: var(--accent-color);
+    color: var(--element-color);
+}
+  
+.bs-sidebar li:not(.except) {
+    padding: 10px;
+}
+
+.bs-sidebar li {
+    display: inline-block;
+}
+
+.bs-sidebar li:hover:not(.except) {
+    background: var(--accent-color-hover);
+}
+
+.bs-sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+hr {
+    border: 0;
+}
+
+table,
+td,
+th {
+    border: 1px solid #fff;
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 5px;
+}
+
+#kc-content {
+    text-align: center;
+}
+
+#kc-form-login a[tabindex="5"] {
+    display: block;
+    margin: 8px;
+}
+
+#kc-page-title {
+    text-align: center;
+}
+
+#kc-header-wrapper {
+    display: none;
+}
