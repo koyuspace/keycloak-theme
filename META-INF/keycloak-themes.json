@@ -1,0 +1,8 @@
+{
+    "themes": [
+        {
+            "name" : "koyuspace",
+            "types": [ "account", "login" ]
+        }
+    ]
+}
