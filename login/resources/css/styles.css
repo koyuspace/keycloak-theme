@@ -194,6 +194,7 @@ th {
     text-align: center;
 }
 
-#kc-header-wrapper {
+#kc-header-wrapper,
+#kc-locale-dropdown {
     display: none;
 }
