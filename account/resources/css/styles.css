@@ -1,3 +1,5 @@
+@import url("karla/karla.css");
+
 :root {
     --accent-color: #fe53e1;
     --accent-color-hover: #ff78e8;
@@ -6,7 +8,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Karla, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 11pt;
     color: #fff !important;
     margin: 0;
